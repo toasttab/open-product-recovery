@@ -51,7 +51,7 @@ are:
 - `http://localhost:5000/<tenant>/integrations/localmain/myoffers`
 
 For example, to create fake offers for the `main` tenant, you can hit 
-`http://localhost:5000/main/integrations/localmain/ingest`
+http://localhost:5000/main/integrations/localmain/ingest
 
 By default, the server is setup to allow wildcard requests. This means that any
 valid OPR request from a valid node will be honored. So you can use this to test
