@@ -47,8 +47,8 @@ of [src/index.ts](src/index.ts) for how this is done. The full qualified paths f
 `ingest` and `myoffers` endpoints installed in [src/localintegrations.ts](src/localintegrations.ts)
 are:
 
-- http://localhost:5000/<tenant>/integrations/localmain/ingest
-- http://localhost:5000/<tenant>/integrations/localmain/myoffers
+- `http://localhost:5000/<tenant>/integrations/localmain/ingest`
+- `http://localhost:5000/<tenant>/integrations/localmain/myoffers`
 
 For example, to create fake offers for the `main` tenant, you can hit 
 `http://localhost:5000/main/integrations/localmain/ingest`
